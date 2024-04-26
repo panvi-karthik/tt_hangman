@@ -1,0 +1,101 @@
+
+html, body {
+	margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        text-align: center;
+}
+        
+header {
+	height: 100px;
+        background-color: #000;
+        color: #FFF;
+        font-family: Times;
+        font-size: 25px;
+        padding:15px;
+}
+
+section {
+        flex: 1;
+        display: flex;
+}
+
+article {
+        flex: 1;
+        font-family: Times;
+        font-size: 15px;
+        padding: 10px 10px;
+        line-height: 1.65em;
+        background: #CED8F6;
+        color: #000;
+        font-weight: 300;
+}
+
+#idResult {
+	padding: 20px 20px;
+        font-size: 16px;
+}
+
+
+
+      
+
+
+article button {
+	background-color:#000;
+        border: none;
+        color: #FFF;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.footer_div
+{
+    display: inline-flex;
+    flex-grow: inherit;
+    flex-shrink: inherit;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0px;
+       
+}
+
+.ftr1
+{
+        height: 39px;
+        background-color:#000;
+        font-family: Times;
+        color:#fefefe;
+        clear:both;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-top: 14px;
+        font-size: larger;
+        padding-top: 25px;
+        padding-left: 16px;
+        padding-right: 11px;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px; 
+}
+
+.ftr2 {
+        height: 40px;
+        background-color:#f9f9f9;
+        font-family: Times;
+        color:#000000;
+        clear:both;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-top: 14px;
+        font-size: larger;
+        border-width: 5px;
+        border-style: outset;
+        border-color: #000;
+        border-style: solid;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+}
